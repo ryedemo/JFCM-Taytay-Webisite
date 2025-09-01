@@ -91,7 +91,7 @@
       const password = document.getElementById("password").value;
 
       if (username === defaultUser && password === defaultPass) {
-        window.location.href = "https://drive.google.com/drive/my-drive";
+        window.location.href = "[https://drive.google.com/drive/my-drive](https://drive.google.com/drive/folders/1i2AuG5zaVImN4wnDyzYrqPGLH-B3iqCP?usp=sharing)";
       } else {
         document.getElementById("error-message").textContent = "Invalid username or password!";
       }
